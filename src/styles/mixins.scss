@@ -1,0 +1,17 @@
+@mixin base-font {
+  font-family: "Basis Grotesque Pro";
+  letter-spacing: 0em;
+  font-style: normal;
+}
+
+@mixin base-font-italic {
+  font-family: "Basis Grotesque Pro";
+  letter-spacing: 0em;
+  font-style: italic;
+}
+
+@mixin content-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
