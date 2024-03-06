@@ -31,12 +31,13 @@ function App(): ReactNode {
           top: "10px",
           left: "10px",
           display: "flex",
+          flexDirection: "column",
           gap: "10px",
         }}
       >
         {buttons.map(({ link, text }) => (
-          <Link to={link} style={{ textDecoration: "none" }} key={text}>
-            <Button variant="bordered">{text}</Button>
+          <Link to={link} style={{ color: "black" }} key={text}>
+            {text}
           </Link>
         ))}
       </div>
