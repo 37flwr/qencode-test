@@ -9,6 +9,8 @@ export default defineConfig({
     alias: {
       "@mixins": resolve(`src/styles/mixins.scss`),
       "@components": resolve(`src/components`),
+      "@shared": resolve(`src/shared`),
+      "@pages": resolve(`src/pages`),
     },
   },
 });

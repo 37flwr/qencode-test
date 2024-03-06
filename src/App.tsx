@@ -1,12 +1,13 @@
 import { type ReactNode } from "react";
-import { LoginForm } from "./components/forms";
+import { BrowserRouter as Router } from "react-router-dom";
+import AppRoutes from "./routes";
 import "./styles/index.scss";
 
 function App(): ReactNode {
   return (
-    <>
-      <LoginForm />
-    </>
+    <Router>
+      <AppRoutes />
+    </Router>
   );
 }
 
