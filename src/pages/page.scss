@@ -1,0 +1,12 @@
+@import "@mixins";
+
+.page {
+  display: flex;
+  justify-content: center;
+
+  &__content {
+    padding-top: 7rem;
+    width: 400px;
+    padding-inline: 20px;
+  }
+}

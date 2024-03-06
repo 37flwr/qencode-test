@@ -1,0 +1,32 @@
+@import "@mixins";
+
+.forgot-password-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+
+  &__logo {
+    width: auto;
+    height: 32px;
+    padding-bottom: 40px;
+  }
+
+  &__title {
+    @include base-font;
+
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--color-black);
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    width: 100%;
+  }
+}

@@ -1,0 +1,9 @@
+@import "@mixins";
+
+.reset-password-form {
+  @include form;
+
+  &__button {
+    padding-top: 5px;
+  }
+}

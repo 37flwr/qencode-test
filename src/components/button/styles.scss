@@ -1,0 +1,41 @@
+@import "@mixins";
+
+.button {
+  @include content-center;
+  @include base-font;
+
+  width: 100%;
+  max-width: 400px;
+  min-width: fit-content;
+  height: 48px;
+  line-height: 46px;
+  padding-inline: 20px;
+  flex: 1;
+
+  border-radius: var(--border-radius-lg);
+
+  font-size: 16px;
+  font-weight: 500;
+
+  cursor: pointer;
+
+  &_primary {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+  }
+
+  &_bordered {
+    border: var(--border-width) solid var(--color-grey-300);
+    color: var(--color-black);
+    background-color: transparent;
+  }
+
+  &_small {
+    border-radius: var(--border-radius-md);
+  }
+
+  &:disabled {
+    background-color: var(--color-grey-500);
+    color: var(--color-white);
+  }
+}
