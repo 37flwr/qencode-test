@@ -1,14 +1,4 @@
-@import "@mixins";
-
-.page {
-  display: flex;
-  justify-content: center;
-
-  &__content {
-    padding-top: 100px;
-    width: 400px;
-  }
-}
+@import "../page.scss";
 
 .login-page {
   display: flex;
@@ -28,6 +18,7 @@
     font-weight: 700;
     font-size: 30px;
     color: var(--color-black);
+    text-align: center;
   }
 
   &__socials {

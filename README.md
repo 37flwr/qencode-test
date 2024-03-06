@@ -1,30 +1,62 @@
-# React + TypeScript + Vite
+# Qencode test task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+https://drive.google.com/file/d/1X0sDS_R9dLS26V55IJFRdWMRumKUE2gj/view
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To get started with this project, follow these instructions:
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Node.js (version 12 or higher)
+- npm (version 7 or higher) or yarn (version 1.22 or higher)
 
-- Configure the top-level `parserOptions` property like this:
+### Installation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone <repository-url>
+   ```
+
+   2. Navigate to project's directory
+
+   ```bash
+   cd qencode-test
+   ```
+
+   3. Install dependencies using npm or yarn:
+
+```bash
+npm install
+# or
+yarn
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Development
+
+To start the development server, run:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+This will start a development server at http://localhost:5173 by default
+
+### Additional Information
+
+Folder Structure
+
+```js
+test-task-project/
+├── public/        # Public assets
+├── src/           # React application source code
+│   ├── components # React components
+│   ├── pages      # React pages
+│   ├── styles     # CSS or styling files
+│   ├── shared     # Constants, fonts, icons
+│   └── ...
+└── index.html
+```

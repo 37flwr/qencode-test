@@ -4,10 +4,12 @@
   @include content-center;
   @include base-font;
 
+  width: 100%;
   max-width: 400px;
   min-width: fit-content;
   height: 48px;
   line-height: 46px;
+  padding-inline: 20px;
   flex: 1;
 
   border-radius: var(--border-radius-lg);
@@ -30,5 +32,10 @@
 
   &_small {
     border-radius: var(--border-radius-md);
+  }
+
+  &:disabled {
+    background-color: var(--color-grey-500);
+    color: var(--color-white);
   }
 }

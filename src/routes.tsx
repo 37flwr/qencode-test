@@ -1,5 +1,5 @@
 import { useRoutes } from "react-router";
-import { LoginPage } from "./pages";
+import { ForgotPasswordPage, LoginPage, SetNewPasswordPage } from "./pages";
 import { routes } from "@shared/constants/routes";
 
 const publicRoutes = [
@@ -10,6 +10,14 @@ const publicRoutes = [
   {
     path: routes.LOGIN,
     element: <LoginPage />,
+  },
+  {
+    path: routes.FORGOT_PASSWORD,
+    element: <ForgotPasswordPage />,
+  },
+  {
+    path: routes.SET_NEW_PASSWORD,
+    element: <SetNewPasswordPage />,
   },
 ];
 
