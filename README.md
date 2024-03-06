@@ -15,17 +15,17 @@ To get started with this project, follow these instructions:
 
 1. Clone this repository to your local machine:
 
-   ```bash
-   git clone <repository-url>
-   ```
+```bash
+git clone git@github.com:37flwr/qencode-test.git
+```
 
-   2. Navigate to project's directory
+2. Navigate to project's directory
 
-   ```bash
-   cd qencode-test
-   ```
+```bash
+cd qencode-test
+```
 
-   3. Install dependencies using npm or yarn:
+3. Install dependencies using npm or yarn:
 
 ```bash
 npm install
