@@ -4,7 +4,6 @@ import { Toaster } from "react-hot-toast";
 import AppRoutes from "./routes";
 import "./styles/index.scss";
 import { routes } from "@shared/constants/routes";
-import { Button } from "@components/button";
 
 const buttons = [
   {
