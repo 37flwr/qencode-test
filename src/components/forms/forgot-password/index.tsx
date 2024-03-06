@@ -26,7 +26,7 @@ function ForgotPasswordForm(): ReactNode {
               email: values.email,
             })
             .then(() => {
-              navigate(routes.CREATE_NEW_PASSWORD);
+              navigate(routes.SET_NEW_PASSWORD);
             })
             .catch((err) => {
               toast.error(
